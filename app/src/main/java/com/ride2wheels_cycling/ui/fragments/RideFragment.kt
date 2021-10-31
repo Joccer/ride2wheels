@@ -1,7 +1,5 @@
 package com.ride2wheels_cycling.ui.fragments
 
-import android.Manifest
-import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
@@ -15,23 +13,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
 import com.ride2wheels_cycling.R
 import com.ride2wheels_cycling.adapters.RideAdapter
-import com.ride2wheels_cycling.other.Constants.REQUEST_CODE_LOCATION_PERMISSION
 import com.ride2wheels_cycling.other.SortType
-import com.ride2wheels_cycling.other.TrackingUtility
 import com.ride2wheels_cycling.ui.viewmodels.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_ride.*
-import pub.devrel.easypermissions.AppSettingsDialog
-import pub.devrel.easypermissions.EasyPermissions
-import android.content.pm.PackageManager
-
-import androidx.annotation.NonNull
-
-
 
 
 @AndroidEntryPoint
-class RideFragment : Fragment(R.layout.fragment_ride), EasyPermissions.PermissionCallbacks {
+class RideFragment : Fragment(R.layout.fragment_ride) {
 
     private val viewModel: MainViewModel by viewModels()
 
@@ -39,7 +28,6 @@ class RideFragment : Fragment(R.layout.fragment_ride), EasyPermissions.Permissio
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        requestPermissions()
         setupRecycleView()
 
         when(viewModel.sortType){
@@ -98,54 +86,10 @@ class RideFragment : Fragment(R.layout.fragment_ride), EasyPermissions.Permissio
         }
     }
 
-    private fun requestPermissions(){
-        if(TrackingUtility.hasLocationPermissions(requireContext())){
-            return
-        }
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q){
-            EasyPermissions.requestPermissions(
-                this,
-                "Az alkalmazás használatához engedélyeznie kell a helymeghatározási szolgáltatást.",
-                REQUEST_CODE_LOCATION_PERMISSION,
-                Manifest.permission.ACCESS_COARSE_LOCATION,
-                Manifest.permission.ACCESS_FINE_LOCATION
-            )
-        } else{
-            EasyPermissions.requestPermissions(
-                this,
-                "Az alkalmazás használatához engedélyeznie kell a helymeghatározási szolgáltatást.",
-                REQUEST_CODE_LOCATION_PERMISSION,
-                Manifest.permission.ACCESS_COARSE_LOCATION,
-                Manifest.permission.ACCESS_FINE_LOCATION,
-                Manifest.permission.ACCESS_BACKGROUND_LOCATION
-            )
-        }
-    }
-
     private fun setupRecycleView() = rvRides.apply {
         rideAdapter = RideAdapter()
         adapter = rideAdapter
         layoutManager = LinearLayoutManager(requireContext())
-    }
-
-    override fun onPermissionsGranted(requestCode: Int, perms: MutableList<String>) {
-        Snackbar.make(requireActivity().findViewById(R.id.rootView), "Permission Granted", Snackbar.LENGTH_LONG).apply {
-            show()
-        }
-    }
-
-    override fun onPermissionsDenied(requestCode: Int, perms: MutableList<String>) {
-        if(EasyPermissions.somePermissionPermanentlyDenied(this, perms)) {
-            AppSettingsDialog.Builder(this).build().show()
-        }else {
-            requestPermissions()
-        }
-    }
-
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
-        //super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        onRequestPermissionsResult(requestCode, permissions, grantResults)
-        EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, this)
     }
 
 }
