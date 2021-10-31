@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fontFamily="@font/orbitron_bold">
+
+    <item android:id="@+id/rideFragment"
+        android:title="Aktivitások"
+        android:fontFamily="@font/orbitron_bold"
+        android:icon="@drawable/ic_ride"/>
+
+    <item android:id="@+id/statisticsFragment"
+        android:title="Statisztika"
+        android:fontFamily="@font/orbitron_bold"
+        android:icon="@drawable/ic_graph"/>
+
+    <item android:id="@+id/settingsFragment"
+        android:title="Személyes adatok"
+        android:fontFamily="@font/orbitron_bold"
+        android:icon="@drawable/ic_settings"/>
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable/ic_delete.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable/ic_graph.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable/ic_ride.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable/ic_ride_black_24dp.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable/ic_run.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable/ic_settings.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/drawable/ic_stop_black_24dp.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout-land/fragment_statistics.xml" value="0.33" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout-land/fragment_tracking.xml" value="0.22839506172839505" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout/activity_main.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout/fragment_ride.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout/fragment_settings.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout/fragment_setup.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout/fragment_statistics.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout/fragment_tracking.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout/item_ride.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/layout/popup_info.xml" value="0.25" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/menu/nav_menu.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/menu/toolbar_tracking_menu.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/archive/ride2wheels_cycling_fixed_location_permissions_complete/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_add_black.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_close_white.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_delete.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_directions_run_black_24dp.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_graph.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_pause_black_24dp.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_ride.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_ride_black_24dp.xml" value="0.203125" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_run.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_settings.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/ic_stop_black_24dp.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/drawable/splash_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/font/orbitron.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/font/orbitron_black.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout-land/fragment_statistics.xml" value="0.22" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout-land/fragment_tracking.xml" value="0.17372134038800705" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/activity_main.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/fragment_ride.xml" value="0.2" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/fragment_settings.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/fragment_setup.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/fragment_statistics.xml" value="0.22" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/fragment_tracking.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/item_ride.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/item_run.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/popup_info.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/layout/toolbar_tracking_menu.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/menu/nav_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/menu/toolbar_tracking_menu.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/DRLW16/AndroidStudioProjects/ride2wheels_cycling/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

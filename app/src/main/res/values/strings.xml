@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ride 2 Wheels Cycling</string>
+    <string name="google_maps_key">AIzaSyBAP6RapDfCOVAq6A5T3QyobnYgI9BYZNw</string>
+    <string-array name="filter_options">
+        <item>Dátum</item>
+        <item>Átlagsebesség</item>
+        <item>Távolság</item>
+        <item>Menetidő</item>
+        <item>Elégetett kalóriák</item>
+    </string-array>
+</resources>

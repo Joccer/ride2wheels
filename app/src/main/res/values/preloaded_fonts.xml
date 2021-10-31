@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/audiowide</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/geo</item>
+        <item>@font/orbitron_black</item>
+        <item>@font/stalinist_one</item>
+        <item>@font/syncopate_bold</item>
+        <item>@font/timmana</item>
+    </array>
+</resources>
